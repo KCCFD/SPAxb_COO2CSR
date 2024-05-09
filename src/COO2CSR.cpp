@@ -151,7 +151,7 @@ int main(int argc, char **argv)
 {
 
 	f_argc = argc;
-    f_argv = argv;
+    	f_argv = argv;
 
 	cout <<"No. of arguments: "<<argc<<"\t Grid File path: "<<f_argv[1]<<endl;
 
