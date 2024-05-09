@@ -1,6 +1,4 @@
 #include <bits/stdc++.h>
-#include <petsc.h> 
-#include <petscsys.h>
 
 using namespace std;
 
