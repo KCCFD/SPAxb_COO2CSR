@@ -153,7 +153,7 @@ int main(int argc, char **argv)
 	f_argc = argc;
     	f_argv = argv;
 
-	cout <<"No. of arguments: "<<argc<<"\t Grid File path: "<<f_argv[1]<<endl;
+	cout <<"No. of arguments: "<<argc<<"\t Path to Mat_COO.dat : "<<f_argv[1]<<endl;
 
 	meshread_COO();
 	matset_CSR();
