@@ -15,7 +15,7 @@ Code execution:
 - CMake is used for compilation of the code although it is unnecessary.
 - Once compiled the following commandline execution must be provided:
 ...
-  
+  sh
 ./COO2CSR "<Path to Mat_COO.dat input file>" "<Path to Mat_CSR.dat output file>" MATSTART_1
   
 ...
