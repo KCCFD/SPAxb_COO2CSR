@@ -19,5 +19,5 @@ Code execution:
   ./COO2CSR "<Path to Mat_COO.dat input file>" "<Path to Mat_CSR.dat output file>" MATSTART_1
   ```
   
-- In the above execution commandline "MATSTART_1" is provided if the sparse matrix is generated using MATLAB as MATLAB matrix entries start from 1 not 0. If matrix entries start from 0 then MATSTART_0 should be provided as the 4th     
+- In the above execution commandline "MATSTART_1" is provided if the sparse matrix is generated using MATLAB as MATLAB matrix entries start from 1 not 0. If matrix entries start from 0 then MATSTART_0 should be provided as the 4th    
   commandline argument.
