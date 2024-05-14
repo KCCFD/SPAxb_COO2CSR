@@ -1,12 +1,13 @@
 # SPAxb_COO2CSR
 This code reads a matrix in CO-Ordinate (COO) format and writes the output in Compressed Sparse Row (CSR) format.
 A sample sparse matrix of dimension 10x10 in the COO format ("row index" "column index" "matrix value") is provided in the folder "/include/". The sparse matrix is generated using MATLAB and function to generate the same is also provide in the parent folder. After execution of the code, a corresponding sparse matrix in the CSR format ("column index" "matrix values" "row pointer") is generated in the "/output/" folder. The dimensions of the arrays are given below:
-
+```
 Arrays     size
 ROW         nnz
 COL         nnz
 VAL         nnz
 ROW_ptr     n+1
+```
 
 Here 'nnz' is the number of non-zero entries in the sparse matrix and 'n' is the matrix dimension (n=10 for the given matrix).
 
